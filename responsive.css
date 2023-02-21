@@ -1,0 +1,940 @@
+@media all and (max-width:1399px) {
+    .contact-form {
+        margin-left: -85px;
+    }
+}
+
+@media all and (max-width:1200px) {
+    .counter-item h1 {
+        font-size: 37px;
+    }
+
+    .counter-item span {
+        font-size: 49px;
+        margin-left: 8%;
+    }
+
+    .counter-item h5 {
+        margin-top: 9px;
+        font-size: 16px;
+    }
+
+    .team-member {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    .skil-section-text h6::before {
+        width: 41px;
+    }
+
+    .skil-section-text h1 {
+        margin-bottom: 10px;
+    }
+
+    .skil-section-text h1 span {
+        font-size: 30px;
+    }
+
+    .skil-section-text p {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .skil-section-text .skil-progress-bar h4 {
+        margin-top: 17px;
+    }
+
+    .contact-form {
+        width: 125%;
+    }
+
+    .main-heading1 .row {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-heading1::after {
+        top: 10px;
+    }
+
+    .project-img .project-name h5 {
+        font-size: 18px;
+    }
+
+    .blog-item .blog-content a h3 {
+        font-size: 17px;
+    }
+
+    .margin-bottom1 {
+        margin-bottom: -100px;
+    }
+
+    .margin-bottom2 {
+        margin-bottom: -100px;
+    }
+
+    .bannar-image-1 {
+        padding: 200px 0;
+    }
+
+    .bannar-image-2 {
+        padding: 200px 0;
+    }
+
+    .bannar-image-3 {
+        padding: 200px 0;
+    }
+
+}
+
+@media all and (max-width:992px) {
+    .headar-menu-section {
+        display: none;
+    }
+
+    .main-menu-text .mobile-menu {
+        display: none;
+    }
+
+    .main-menu-text i {
+        display: none;
+    }
+
+    .main-menu-text input[type="checkbox"] {
+        display: block;
+        appearance: none;
+        cursor: pointer;
+        border: 1px solid #0f88d0;
+    }
+
+    .main-menu-text input[type="checkbox"]::before {
+        content: "\f0c9";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: #0f88d0;
+        font-size: 24px;
+        position: relative;
+        left: 9px;
+    }
+
+    .main-menu-text input[type="checkbox"]:checked::before {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .main-menu-text input[type="checkbox"]::after {
+        content: "\f00d";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: #0f88d0;
+        font-size: 26px;
+        position: relative;
+        left: -10px;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .main-menu-text input[type="checkbox"]:checked::after {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    /* Mobail menu Start */
+    .main-menu-text {
+        position: relative;
+    }
+
+    .main-menu-text ul {
+        position: absolute;
+        top: 118%;
+        width: 121%;
+        background-color: #242c35;
+        right: 0%;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: .5s;
+    }
+
+    .main-menu-text input[type="checkbox"]:checked~ul {
+        transform: scaleY(1);
+    }
+
+    .main-menu-text ul li {
+        border-bottom: 1px solid #ffffff7a !important;
+        display: block;
+        position: relative;
+    }
+
+    .main-menu-text ul li input[type="checkbox"] {
+        display: block;
+        position: absolute;
+        top: -1px;
+        right: 1px;
+        appearance: none;
+        cursor: pointer;
+        height: 49px;
+        width: 46px;
+        border: 1px solid #ddddddbf;
+        text-align: center;
+        line-height: 30px;
+        background-color: #91858552;
+    }
+
+    .main-menu-text ul li input[type="checkbox"]::before {
+        content: "\f067";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: white;
+        position: relative;
+        left: 7px;
+        font-size: 16px;
+        bottom: -7px;
+    }
+
+    .main-menu-text ul li input[type="checkbox"]:checked::before {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .main-menu-text ul li input[type="checkbox"]::after {
+        content: "\f2d1";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: white;
+        visibility: hidden;
+        opacity: 0;
+        position: relative;
+        left: -7px;
+        font-size: 14px;
+        bottom: -2px;
+    }
+
+    .main-menu-text ul li input[type="checkbox"]:checked::after {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .main-menu-text ul li a {
+        line-height: 47px;
+        color: #fffc;
+
+    }
+
+    /* Dropdown */
+    .main-menu-text ul li ul li:hover {
+        background-color: #0000003f;
+    }
+
+    .main-menu-text ul li ul {
+        position: inherit;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background: #242c35;
+        transition: .5s;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: 1s;
+        display: none;
+    }
+
+    .main-menu-text ul li input[type="checkbox"]:checked~ul {
+        display: block;
+        transform: scaleY(1);
+    }
+
+    .main-menu-text ul li ul li {
+        border-top: 1px solid #ffffff3d;
+        border-bottom: 0 !important;
+    }
+
+    .main-menu-text ul li ul li a {
+        transform: translateX(25px);
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 46px;
+    }
+
+    .main-menu-text ul li ul li ul {
+        position: inherit;
+        top: 100%;
+        left: 0;
+        display: none;
+        width: 100%;
+    }
+
+    .main-menu-text ul li ul li ul input[type="checkbox"]:checked~ul {
+        display: block;
+        transform: scaleY(1);
+    }
+
+    .main-menu-text ul li ul li ul li a {
+        transform: translateX(66px);
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    /* Mobail menu End */
+
+    /* Banner STart */
+    .carousel-text {
+        top: 20%;
+        left: 10%;
+    }
+
+    .carousel-text h1 {
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 17px;
+    }
+
+    .carousel-text p {
+        font-size: 18px;
+    }
+
+    .carousel-text a {
+        padding: 12px 24px;
+    }
+
+    .design-box {
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    .width-50 {
+        width: 50%;
+    }
+
+    .design-img {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .experiences-image img {
+        margin-bottom: 45px;
+    }
+
+    .counter-item {
+        margin-bottom: 30px;
+    }
+
+    .counter-item h1 {
+        font-size: 52px;
+        width: 43%;
+    }
+
+    .counter-item span {
+        font-size: 49px;
+        margin-left: 26%;
+    }
+
+    .counter-item h5 {
+        margin-top: 9px;
+        font-size: 21px;
+    }
+
+    .main-heading1-left h5 {
+        font-size: 15px;
+    }
+
+    .main-heading1-left h1 {
+        font-size: 31px;
+    }
+
+    .main-heading1-right p {
+        font-size: 14px;
+    }
+
+    .skil-section-text {
+        margin-bottom: 60px;
+        padding: 0 20px;
+    }
+
+    .skil-section-image {
+        text-align: center;
+    }
+
+    .skil-section-image .skil-section-image-box {
+        right: 11%;
+    }
+
+    .skil-section-text .skil-progress-bar h4 {
+        width: 80%;
+    }
+
+    .skil-section-text .skil-progress-bar span {
+        width: 15%;
+    }
+
+    .skil-section-text .skil-progress-bar h4 {
+        font-size: 15px;
+    }
+
+    .contact-form {
+        width: 90%;
+        margin: auto;
+    }
+
+    .contact-section {
+        padding: 70px 0;
+    }
+
+    .contact-video {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .contact-form {
+        width: 90%;
+        margin: auto;
+    }
+
+    .main-heading1::after {
+        display: none;
+    }
+
+    .main-heading1-left h1 {
+        margin-bottom: 15px;
+    }
+
+    .main-heading1 {
+        padding: 0 20px;
+    }
+
+    .project-section {
+        padding: 80px 30px;
+    }
+
+    .project-box-3 {
+        width: 50%;
+        margin: auto;
+    }
+
+    .project-img::after {
+        bottom: 15.5%;
+        right: 58%;
+    }
+
+    .project-img .project-name {
+        left: 15%;
+    }
+
+    .nai {
+        display: none;
+    }
+
+    .testimonials-item {
+        margin: 0px 50px;
+    }
+
+    .testimonials-heading h1 {
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+
+    .footer-section {
+        display: none;
+    }
+
+    .bannar-image-1 {
+        padding: 150px 0;
+    }
+
+    .bannar-image-2 {
+        padding: 150px 0;
+    }
+
+    .bannar-image-3 {
+        padding: 150px 0;
+    }
+
+
+}
+
+@media all and (max-width:767px) {
+    .carousel-text h1 {
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 11px;
+    }
+
+    .carousel-text p {
+        font-size: 13px;
+    }
+
+    .banner-btn1 {
+        width: 40px;
+        height: 40px;
+        left: 6%;
+    }
+
+    .banner-btn2 {
+        height: 40px;
+        width: 40px;
+        right: 6%;
+    }
+
+    .counter-item h1 {
+        font-size: 39px;
+        width: 41%;
+    }
+
+    .counter-item span {
+        font-size: 45px;
+        margin-left: 25%;
+    }
+
+    .counter-item h5 {
+        margin-top: 9px;
+        font-size: 15px;
+    }
+
+    .main-heading1::after {
+        display: none;
+    }
+
+    .main-heading1 {
+        margin-left: 0;
+    }
+
+    .team-member img {}
+
+    .tem-heading-text {
+        width: 94%;
+        margin: auto;
+    }
+
+    .tem-heading-text h1 {
+        font-size: 31px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .contact-video {
+        padding: 100px 0;
+    }
+
+    .contact-video a i {
+        font-size: 65px;
+    }
+
+    .contact-form {
+        padding: 47px;
+    }
+
+    .contact-form form button {
+        font-size: 14px;
+    }
+
+    .project-box-3 {
+        width: 100%;
+    }
+
+    .project-img {
+        width: 68% !important;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .my-logo ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .my-logo ul li {
+        margin: 0 20px;
+        margin-bottom: 30px;
+    }
+
+    .blog-item {
+        width: 72%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .clock-to-top a {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+    }
+
+    .width-50 {
+        width: 100%;
+    }
+
+    .margin-bottom1 {
+        margin-bottom: 50px;
+    }
+
+    .bannar-image-1 {
+        padding: 100px 0;
+    }
+
+    .bannar-image-2 {
+        padding: 100px 0;
+    }
+
+    .bannar-image-3 {
+        padding: 100px 0;
+    }
+
+}
+
+@media all and (max-width:576px) {
+    .col-xl-3.col-lg-2.col-md-2.col-sm-2 {
+        width: 30%;
+    }
+
+    .col-xl-9.col-lg-10.col-md-10.col-sm-10 {
+        width: 70%;
+    }
+
+    .main-menu-text ul {
+        width: 145%;
+    }
+
+    .carousel-text a {
+        padding: 13px 18px;
+        font-size: 14px;
+    }
+
+    .carousel-text {
+        top: 10%;
+    }
+
+    .carousel-text h1 {
+        font-size: 31px;
+    }
+
+    .carousel-text p {
+        font-size: 13px;
+    }
+
+    .banner-btn2 {
+        right: 8%;
+    }
+
+    .banner-btn1 {
+        left: 8%;
+    }
+
+    .experiences-text h1 {
+        margin-bottom: 54px;
+    }
+
+    .experiences-text h1 span {
+        margin-right: 8px;
+        font-size: 33px;
+    }
+
+    .experiences-text h1::after {
+        top: 124%;
+    }
+
+    .experiences-text h6 {
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+
+    .experiences-text p {
+        font-size: 15px;
+    }
+
+    .experiences-text img {
+        width: 100px;
+        margin: 16px 0;
+    }
+
+    .experiences-text a {
+        padding: 14px 35px;
+        font-size: 14px;
+    }
+
+    .counter-item {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .testimonials-heading h6 {
+        font-size: 15px;
+    }
+
+    .testimonials-heading h1 {
+        font-size: 21px;
+    }
+
+    .testimonials-item {
+        padding: 25px;
+        margin: 0px 20px;
+    }
+
+    .skil-section-image .skil-section-image-box a {
+        font-size: 18px;
+    }
+
+    .bannar-image-1 {
+        padding: 80px 0;
+    }
+
+    .bannar-image-2 {
+        padding: 80px 0;
+    }
+
+    .bannar-image-3 {
+        padding: 80px 0;
+    }
+
+
+}
+
+@media all and (max-width:530px) {
+    .tem-heading-text h6 {
+        font-size: 14px;
+    }
+
+    .tem-heading-text h1 {
+        font-size: 26px;
+    }
+
+    .testimonials-item .testimonials-profile::after {
+        font-size: 30px;
+    }
+
+
+}
+
+@media all and (max-width:490px) {
+    .carousel-text h1 {
+        font-size: 26px;
+    }
+
+    .carousel-text p {
+        font-size: 12px;
+    }
+
+    .carousel-text a {
+        padding: 10px 17px;
+        font-size: 12px;
+    }
+
+    .design-box {
+        width: 90%;
+    }
+
+    .counter-item {
+        width: 80%;
+        margin: auto;
+    }
+
+    .contact-form form button {
+        font-size: 11px;
+    }
+
+    .project-img {
+        width: 100% !important;
+    }
+
+    .blog-item {
+        width: 83%;
+    }
+
+    .testimonials-item .testimonials-profile h2 {
+        margin-bottom: 4px;
+        font-size: 19px;
+    }
+
+    .testimonials-item .testimonials-profile h5 {
+        font-size: 14px;
+    }
+
+    .testimonials-item .testimonials-profile p {
+        font-size: 13px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+
+    .counter-item {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .bannar-image-1 {
+        padding: 50px 0;
+    }
+
+    .bannar-image-2 {
+        padding: 50px 0;
+    }
+
+    .bannar-image-3 {
+        padding: 50px 0;
+    }
+
+    .bannar-image-1 {
+        padding: 40px 0;
+    }
+
+    .bannar-image-2 {
+        padding: 40px 0;
+    }
+
+    .bannar-image-3 {
+        padding: 40px 0;
+    }
+
+}
+
+@media all and (max-width:400px) {
+    .design-box .design-text a {
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .design-box .design-text h1 {
+        font-size: 19px;
+        margin: 5px 0;
+    }
+
+    .design-box .design-text p {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .contact-form p {
+        font-size: 13px;
+    }
+
+    footer p {
+        font: 15;
+    }
+
+    footer p a {
+        display: block;
+    }
+
+    .main-heading1 {
+        text-align: center;
+    }
+
+    .skil-section-text h6::before {
+        left: -18% !important;
+    }
+
+    .skil-section-text h6 {
+        font-size: 18px;
+        margin-left: 45px;
+    }
+
+    .skil-section-text h1 span {
+        font-size: 23px;
+    }
+
+    .skil-section-text h1 {
+        font-size: 21px;
+    }
+
+    .contact-form form input {
+        height: 50px;
+    }
+
+    .contact-form form select {
+        height: 50px;
+    }
+
+    .main-heading1 {
+        padding: 0;
+    }
+
+}
+
+@media all and (max-width:350px) {
+    .carousel-text h1 {
+        font-size: 18px;
+        margin: 3px 0;
+    }
+
+    .carousel-text p {
+        font-size: 10px;
+        margin: 4px 0;
+    }
+
+    .carousel-text a {
+        padding: 8px 10px;
+        font-size: 10px;
+    }
+
+    .experiences-text h1 span {
+        font-size: 24px;
+    }
+
+    .experiences-text h1 {
+        font-size: 23px;
+    }
+
+    .experiences-text h6 {
+        font-size: 15px;
+        margin-bottom: 9px;
+    }
+
+    .experiences-text p {
+        font-size: 13px;
+    }
+
+    .experiences-text a {
+        padding: 10px 23px;
+        font-size: 13px;
+    }
+
+    .main-heading1-left h1 {
+        font-size: 22px;
+    }
+
+    .main-heading1-right p {
+        font-size: 13px;
+    }
+
+    .project-img .project-name h6 {
+        font-size: 11px;
+    }
+
+    .project-img .project-name h5 {
+        font-size: 15px;
+    }
+
+    .project-img .project-icon {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+
+    .project-img .project-icon a {
+        font-size: 18px;
+    }
+
+    .blog-item {
+        width: 100%;
+    }
+
+    .bannar-image-1 {
+        padding: 30px 0;
+    }
+
+    .bannar-image-2 {
+        padding: 30px 0;
+    }
+
+    .bannar-image-3 {
+        padding: 30px 0;
+    }
+}
+
+@media all and (max-width:300px) {}

@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?to3qix');
+  src:  url('fonts/icomoon.eot?to3qix#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?to3qix') format('truetype'),
+    url('fonts/icomoon.woff?to3qix') format('woff'),
+    url('fonts/icomoon.svg?to3qix#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-starfill:before {
+  content: "\e900";
+}
+.icon-starborder:before {
+  content: "\e901";
+}
+.icon-star-half-empty:before {
+  content: "\e902";
+}
+.icon-quote:before {
+  content: "\e903";
+}
+.icon-user:before {
+  content: "\e904";
+}
+.icon-calendar:before {
+  content: "\e905";
+}
+.icon-link:before {
+  content: "\e906";
+}
+.icon-telephone:before {
+  content: "\e907";
+}
+.icon-play-button:before {
+  content: "\e908";
+}
